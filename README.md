@@ -18,7 +18,7 @@ Python script to convert grades exported from CUNYfirst Query Viewer to QC Grade
 
 ## Description
 
-It too long for the original maintainer to update the grade distribution [spreadsheet](https://docs.google.com/spreadsheets/d/1mS6khEB6m8cPNenNvY9Tg6bJ6YkmcvCI/edit?gid=1942445276#gid=1942445276). Therefore, I decided to improvise myself.
+It took too long for the original maintainer to update the grade distribution [spreadsheet](https://docs.google.com/spreadsheets/d/1mS6khEB6m8cPNenNvY9Tg6bJ6YkmcvCI/edit?gid=1942445276#gid=1942445276). Therefore, I decided to improvise myself.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,7 +53,7 @@ Below are some brief instructions on setting up this project *locally*. To get a
    ```
 4. Improvise:
    ```sh
-   python3 grade_summary.py --grade CU_SR_GRADE_ROSTER_339412345.xlsx --details CU_SR_CLASS_ENRL_ALL_126512345.xlsx --term SP24
+   python3 grade_dist.py --grade CU_SR_GRADE_ROSTER_339412345.xlsx --details CU_SR_CLASS_ENRL_ALL_126512345.xlsx --term SP24
    ```
 4. Profit ✨
 
